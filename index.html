@@ -1,20 +1,1515 @@
-<!doctype html>
-<html lang="es">
+<!DOCTYPE html>
+<html lang="zxx">
 
 <head>
+
+    <!-- Basic -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>Andes-WOW</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Andes WoW</title>
+
+    <meta name="keywords"
+        content="MMORPG, AndesWOW, andes-wow, azerothcore, AzerothCore, BlizzCMS, blizzcms, World of Warcraft, Wrath of the Lich King" />
+    <meta name="description"
+        content="Andes WOW es un servidor Open Source, que utiliza AzerothCore y BlizzCMS. De Latinoamérica, para el mundo. Veni, proba nuestra comunidad, y quédate a disfrutar de ella.">
+    <meta name="author" content="Santroro">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+
+    <!-- Web Fonts  -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,900%7COpen+Sans:300,400,600,700,800"
+        rel="stylesheet" type="text/css">
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/font-awesome/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="vendor/animate/animate.min.css">
+    <link rel="stylesheet" href="vendor/linear-icons/css/linear-icons.min.css">
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.min.css">
+    <link rel="stylesheet" href="vendor/nanoscroller/nanoscroller.css">
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/theme-elements.css">
+
+    <!-- Current Page CSS -->
+    <link rel="stylesheet" href="vendor/rs-plugin/css/settings.css">
+    <link rel="stylesheet" href="vendor/rs-plugin/css/layers.css">
+    <link rel="stylesheet" href="vendor/rs-plugin/css/navigation.css">
+
+    <!-- Skin CSS -->
+    <link rel="stylesheet" href="css/skins/skin-medical.css">
+
+    <!-- Theme Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Head Libs -->
+    <script src="vendor/modernizr/modernizr.min.js"></script>
+
 </head>
 
-<body>
-    <h1>Andes-WOW</h1>
-    <h2>El mejor servidor de Sudamérica</h2>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+<body data-spy="scroll" data-target="#navSecondary" data-offset="150">
+    <div class="body">
+        <!-- CABECERA -->
+        <header id="header" class="header-effect-shrink"
+            data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyStartAt': 120}">
+            <div class="header-body">
+                <div class="header-top">
+                    <div class="header-top-container container">
+                        <div class="header-row">
+                            <div class="header-column justify-content-start">
+                                <span class="d-none d-sm-flex align-items-center">
+                                    <i class="fas fa-map-marker-alt mr-1"></i>
+                                    ARGENTINA
+                                </span>
+                            </div>
+                            <div class="header-column justify-content-end">
+                                <ul class="nav">
+                                    <!-- LINK
+											<li class="nav-item">
+											<a class="nav-link" href="#">Texto</a>
+										</li> -->
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link dropdown-menu-toggle py-2" id="dropdownLanguage"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                            Español <i class="fas fa-angle-down fa-sm"></i>
+                                        </a>
+                                        <ul class="dropdown-menu dropdown-menu-right"
+                                            aria-labelledby="dropdownLanguage">
+                                            <li><a href="#" class="no-skin"><img src="img/blank.gif"
+                                                        class="flag flag-us" alt="English" /> English</a></li>
+                                            <li><a href="#" class="no-skin"><img src="img/blank.gif"
+                                                        class="flag flag-es" alt="Español" /> Español</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <ul
+                                    class="header-top-social-icons social-icons social-icons-transparent d-none d-md-block">
+                                    <li class="social-icons-facebook">
+                                        <a href="https://www.facebook.com/" target="_blank" title="Facebook"><i
+                                                class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li class="social-icons-twitter">
+                                        <a href="https://twitter.com/" target="_blank" title="Twitter"><i
+                                                class="fab fa-twitter"></i></a>
+                                    </li>
+                                    <li class="social-icons-instagram">
+                                        <a href="https://www.instagram.com/" target="_blank" title="Instragram"><i
+                                                class="fab fa-instagram"></i></a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="header-container container">
+                    <div class="header-row">
+                        <!-- LOGO -->
+                        <div class="header-column justify-content-start">
+                            <div class="header-logo">
+                                <a href="index.html">
+                                    <img alt="ATHENAS PROJECT" width="100%" height="100%" src="img/logo-111.png">
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- MENÚ -->
+                        <div class="header-column justify-content-end">
+                            <div class="header-nav">
+                                <div class="header-nav-main header-nav-main-effect-1 header-nav-main-sub-effect-1">
+                                    <nav class="collapse">
+                                        <ul class="nav flex-column flex-lg-row" id="mainNav">
+                                            <li class="dropdown dropdown-mega">
+                                                <a class="dropdown-item dropdown-toggle" href="#">
+                                                    Comunidad</a>
+                                                <ul class="dropdown-menu">
+                                                    <li>
+                                                        <div class="dropdown-mega-content">
+                                                            <div class="row">
+                                                                <div class="col-lg-3 dropdown-mega-sub-content-block overlay overlay-show overlay-color-primary d-none d-lg-block"
+                                                                    data-plugin-image-background
+                                                                    data-plugin-options="{'imageUrl': 'img/menu-bg-1">
+                                                                    <!--<span class="top-sub-title text-color-light-2 d-block">Servidor Privado de 
+																		World of Warcraft WotLK</span>
+																		<span class="text-color-light font-weight-bold d-block text-4 mb-2">ANDES</span>
+																		<p class="text-color-light-2">Bienvenido a la aventura.</p> 
+																		<a class="btn btn-dark btn-v-3 btn-h-2 content-block-button font-weight-semibold" href="#">¡Unete!</a> -->
+                                                                </div>
+                                                                <!-- Menu 1 -->
+                                                                <div class="col-lg-3 ml-auto">
+                                                                    <span class="dropdown-mega-sub-title">TÍTULO</span>
+                                                                    <ul class="dropdown-mega-sub-nav">
+                                                                        <li><a class="dropdown-item" href="#"
+                                                                                target="_blank">Sub Menú</a></li>
+
+                                                                    </ul>
+                                                                    <!-- Menu 1bis -->
+                                                                    <span class="dropdown-mega-sub-title">TÍTULO</span>
+                                                                    <ul class="dropdown-mega-sub-nav">
+                                                                        <li><a class="dropdown-item" href="#"
+                                                                                target="_blank">Sub Menú</a></li>
+                                                                        <li><a class="dropdown-item" href="#">Sub Menú
+                                                                                <strong>negrita</strong></a></li>
+                                                                        <li><a class="#" target="_blank">Sub Menú</a>
+                                                                        </li>
+                                                                        <li><a class="dropdown-item" href="#">Sub
+                                                                                Menú</a></li>
+                                                                    </ul>
+
+                                                                </div>
+                                                                <!-- Menu 2 -->
+                                                                <div class="col-lg-3">
+                                                                    <span class="dropdown-mega-sub-title">TÍTULO</span>
+                                                                    <ul class="dropdown-mega-sub-nav">
+                                                                        <li><a class="dropdown-item" href="#">Sub
+                                                                                Menú</a></li>
+                                                                        <li><a class="dropdown-item" href="#">Sub
+                                                                                Menú</a></li>
+                                                                        <li><a class="dropdown-item" href="#">Sub
+                                                                                Menú</a></li>
+                                                                        <li><a class="dropdown-item" href="#">Sub
+                                                                                Menú</a></li>
+                                                                    </ul>
+                                                                    <!-- Menu 2bis -->
+                                                                    <span class="dropdown-mega-sub-title">TÍTULO</span>
+                                                                    <ul class="dropdown-mega-sub-nav">
+                                                                        <li><a class="dropdown-item" href="#">Sub
+                                                                                Menú</a></li>
+                                                                        <li><a class="dropdown-item" href="#">Sub
+                                                                                Menú</a></li>
+                                                                        <li><a class="dropdown-item" href="#">Sub
+                                                                                Menú</a></li>
+                                                                        <li><a class="dropdown-item" href="#">Sub
+                                                                                Menú</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <!-- Menu 3 -->
+                                                                <div class="col-lg-3">
+                                                                    <span class="dropdown-mega-sub-title">TÍTULO</span>
+                                                                    <ul class="dropdown-mega-sub-nav">
+                                                                        <li><a class="dropdown-item" href="#">Sub
+                                                                                Menú</a></li>
+                                                                        <li><a class="dropdown-item" href="#">Sub
+                                                                                Menú</a></li>
+                                                                        <li><a class="dropdown-item" href="#">Sub
+                                                                                Menú</a></li>
+                                                                        <li><a class="dropdown-item" href="#">Sub
+                                                                                Menú</a></li>
+                                                                        <li><a class="dropdown-item" href="#">Sub
+                                                                                Menú</a></li>
+                                                                        <li><a class="dropdown-item" href="#">Sub
+                                                                                Menú</a></li>
+                                                                        <li><a class="dropdown-item" href="#">
+                                                                                <strong>SUB MENÚ</strong></a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <!-- NOTICIAS -->
+                                            <li class="dropdown">
+                                                <a class="dropdown-item dropdown-toggle" href="#noticias">
+                                                    Noticias
+                                                </a>
+                                            </li>
+
+                                            <!-- DESCARGAS -->
+                                            <li class="dropdown">
+                                                <a class="dropdown-item dropdown-toggle" href="#">
+                                                    Descargas
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">Cliente</a>
+                                                        <!--		<ul class="dropdown-menu">
+																<li><a class="dropdown-item" href="#">Wrath of the Lich King  (3.3.5a)</a></li>
+																<li><a class="dropdown-item" href="#">Cataclysm (4.3.4)</a></li>
+																<li><a class="dropdown-item" href="#">Pandaria (5.4.8)</a></li>
+																<li><a class="dropdown-item" href="#">Legion (7.3.5)</a></li>
+															</ul>  -->
+                                                    <li><a class="dropdown-item"
+                                                            href="https://www.curseforge.com/wow/addons"
+                                                            target="_blank">Addon's</a></li>
+                                                    <li class="dropdown-submenu">
+                                                        <a class="dropdown-item dropdown-toggle" href="#">Programas
+                                                            Varios</a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a class="dropdown-item" href="https://discord.com/"
+                                                                    target="_blank">Discord</a></li>
+                                                            <li><a class="dropdown-item"
+                                                                    href="https://obsproject.com/es/download"
+                                                                    target="_blank">OBS Studio</a></li>
+                                                        </ul>
+                                                    </li>
+                                            </li>
+                                        </ul>
+                                        </li>
+
+                                        <!-- SOPORTE -->
+                                        <li class="dropdown">
+                                            <a class="dropdown-item dropdown-toggle" href="#">
+                                                Soporte
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">Reglas</a></li>
+                                                <li><a class="dropdown-item" href="#">Preguntas frecuentes</a></li>
+                                                <li><a class="dropdown-item" href="#">Documentación</a></li>
+                                                <li><a class="dropdown-item" href="#">Lista de Baneos</a></li>
+                                                <li><a class="dropdown-item" href="#">Staff Patagonia</a></li>
+                                            </ul>
+                                        </li>
+
+                                        <!-- TIENDA -->
+                                        <li class="dropdown dropdown-mega dropdown-mega-style-2">
+                                            <a class="dropdown-item dropdown-toggle" href="#">
+                                                Tienda
+                                            </a>
+                                        </li>
+
+                                        <!-- INGRESAR -->
+                                        <li class="dropdown dropdown-mega dropdown-mega-signin signin"
+                                            id="headerAccount">
+                                            <a class="dropdown-item dropdown-toggle" href="#">Ingresar</a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <div class="dropdown-mega-content">
+                                                        <div class="row">
+                                                            <div class="col">
+                                                                <div class="signin-form">
+                                                                    <span
+                                                                        class="top-sub-title text-color-light-3">MIEMBROS</span>
+                                                                    <h2 class="font-weight-bold text-4 mb-4">Ingresar
+                                                                    </h2>
+
+                                                                    <form action="/" id="frmSignIn" method="post">
+                                                                        <div class="form-row">
+                                                                            <div class="form-group col mb-2">
+                                                                                <input type="email" value=""
+                                                                                    maxlength="100"
+                                                                                    class="form-control rounded-0 bg-light-5 border-0 py-2 px-3 text-1"
+                                                                                    name="email" id="signInEmail"
+                                                                                    placeholder="Email / Username"
+                                                                                    required>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="form-row">
+                                                                            <div class="form-group col">
+                                                                                <input type="password" value=""
+                                                                                    class="form-control rounded-0 bg-light-5 border-0 py-2 px-3 text-1"
+                                                                                    name="password" id="signInPassword"
+                                                                                    placeholder="Password" required>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="form-row">
+                                                                            <div class="form-group col">
+                                                                                <div
+                                                                                    class="form-check checkbox-custom checkbox-default">
+                                                                                    <input class="form-check-input"
+                                                                                        type="checkbox"
+                                                                                        id="signInRemember">
+                                                                                    <label class="form-check-label"
+                                                                                        for="signInRemember">
+                                                                                        Recuerdame
+                                                                                    </label>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="form-group col text-right">
+                                                                                <a href="#" id="headerRecover"
+                                                                                    class="forgot-pw text-color-dark d-block">Perdiste
+                                                                                    tu contraseña?</a>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row align-items-center">
+                                                                            <div class="col">
+                                                                                <a href="#" id="headerSignUp"
+                                                                                    class="text-color-primary pl-0">¡Registrate
+                                                                                    ahora!</a>
+                                                                            </div>
+                                                                            <div class="col text-right">
+                                                                                <button type="submit"
+                                                                                    class="btn btn-primary btn-v-3 btn-h-3 text-color-light font-weight-bold">ENTRAR</button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+
+                                                                <div class="signup-form">
+                                                                    <span
+                                                                        class="top-sub-title text-color-light-3">MEMBERSHIP</span>
+                                                                    <h2 class="font-weight-bold text-4 mb-4">Sign Up
+                                                                    </h2>
+
+                                                                    <form action="/" id="frmSignUp" method="post">
+                                                                        <div class="form-row">
+                                                                            <div class="form-group col mb-2">
+                                                                                <input type="text" value=""
+                                                                                    class="form-control rounded-0 bg-light-5 border-0 py-2 px-3 text-1"
+                                                                                    name="name" id="signUpName"
+                                                                                    placeholder="Full Name" required>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="form-row">
+                                                                            <div class="form-group col mb-2">
+                                                                                <input type="email" value=""
+                                                                                    maxlength="100"
+                                                                                    class="form-control rounded-0 bg-light-5 border-0 py-2 px-3 text-1"
+                                                                                    name="email" id="signUpEmail"
+                                                                                    placeholder="E-mail" required>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="form-row mb-3">
+                                                                            <div class="form-group col">
+                                                                                <input type="password" value=""
+                                                                                    class="form-control rounded-0 bg-light-5 border-0 py-2 px-3 text-1"
+                                                                                    name="password" id="signUpPassword"
+                                                                                    placeholder="Password" required>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row align-items-center">
+                                                                            <div class="col">
+                                                                                <a href="#" id="headerSignIn"
+                                                                                    class="text-color-primary pl-0">Have
+                                                                                    an account?</a>
+                                                                            </div>
+                                                                            <div class="col text-right">
+                                                                                <button type="submit"
+                                                                                    class="btn btn-primary btn-rounded btn-v-3 btn-h-3 text-color-light font-weight-bold">SIGN
+                                                                                    UP</button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+
+                                                                <div class="recover-form">
+                                                                    <span
+                                                                        class="top-sub-title text-color-light-3">MEMBERSHIP</span>
+                                                                    <h2 class="font-weight-bold text-4 mb-4">Reset my
+                                                                        Password</h2>
+
+                                                                    <form action="/" id="frmResetPassword"
+                                                                        method="post">
+                                                                        <div class="form-row mb-4">
+                                                                            <div class="form-group col mb-2">
+                                                                                <input type="email" value=""
+                                                                                    maxlength="100"
+                                                                                    class="form-control rounded-0 bg-light-5 border-0 py-2 px-3 text-1"
+                                                                                    name="email" id="resetPasswordEmail"
+                                                                                    placeholder="E-mail" required>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row align-items-center">
+                                                                            <div class="col">
+                                                                                <a href="#" id="headerRecoverCancel"
+                                                                                    class="text-color-primary pl-0">Have
+                                                                                    an account?</a>
+                                                                            </div>
+                                                                            <div class="col text-right">
+                                                                                <button type="submit"
+                                                                                    class="btn btn-primary btn-rounded btn-v-3 btn-h-3 text-color-light font-weight-bold">SUBMIT</button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        </ul>
+
+                                    </nav>
+                                </div>
+                                <div class="header-button d-none d-sm-flex ml-3">
+                                    <a href="#" class="btn btn-primary btn-4" target="_blank">
+                                        <span class="wrap">
+                                            <span>JUGAR GRATIS</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div role="main" class="main">
+
+            <!-- SLIDER - BANNERS -->
+
+            <div class="slider-container slider-container-full-height rev_slider_wrapper">
+                <div id="revolutionSlider" class="slider rev_slider" data-version="5.4.7" data-plugin-revolution-slider
+                    data-plugin-options="{'delay': 9000, 'sliderLayout': 'fullscreen', 'fullScreenOffsetContainer': '#header', 'gridwidth': [1140,960,720,540], 'gridheight': [600,600,600,600], 'disableProgressBar': 'on', 'responsiveLevels': [4096,1200,992,576], 'navigation' : {'arrows': { 'enable': true, 'hide_under': 767, 'style': 'slider-arrows-style-1 slider-arrows-dark' }, 'bullets': {'enable': true, 'style': 'bullets-style-1', 'h_align': 'center', 'v_align': 'bottom', 'space': 7, 'v_offset': 35, 'h_offset': 0}}}">
+                    <ul>
+                        <!-- Banner #1  -->
+                        <li data-transition="fade">
+                            <img src="img/slides/multi-purpose/slide-11-66.jpg" alt="" data-bgposition="center center"
+                                data-bgfit="cover" data-bgrepeat="no-repeat" data-kenburns="on" data-duration="2500"
+                                data-ease="Power2.easeInOut" data-scalestart="125" data-scaleend="100"
+                                data-rotatestart="0" data-rotateend="0" data-blurstart="20" data-blurend="0"
+                                data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg">
+
+                            <div class="tp-caption text-color-light font-primary font-weight-bold" data-x="left"
+                                data-hoffset="['52','52','17','17']" data-y="center"
+                                data-voffset="['-80','-80','-80','-70']" data-start="1000"
+                                data-fontsize="['23','23','23','23']" data-lineheight="['32','32','32','32']"
+                                data-transform_in="y:[100%];opacity:0;s:500;"
+                                data-transform_out="y:[100%];opacity:0;s:500;" data-mask_in="x:0px;y:0px;">World of
+                                Warcraft</div>
+
+                            <div class="tp-caption text-color-light font-primary font-weight-bold" data-x="left"
+                                data-hoffset="['50','50','15','15']" data-y="center"
+                                data-voffset="['-30','-30','-30','-30']" data-start="1000"
+                                data-fontsize="['65','65','65','47']" data-lineheight="['70','70','70','52']"
+                                data-transform_in="y:[100%];opacity:0;s:500;"
+                                data-transform_out="y:[100%];opacity:0;s:500;" data-mask_in="x:0px;y:0px;">WRATH OF THE
+                                LICH KING</div>
+
+                            <div class="tp-caption text-color-light font-primary font-weight-thin" data-x="left"
+                                data-hoffset="['50','50','15','15']" data-y="center"
+                                data-voffset="['35','35','35','25']" data-start="1000"
+                                data-fontsize="['28','28','28','28']" data-lineheight="['32','32','32','32']"
+                                data-transform_in="y:[100%];opacity:0;s:500;"
+                                data-transform_out="y:[100%];opacity:0;s:500;" data-mask_in="x:0px;y:0px;">Servidor
+                                Privado <strong>Latino - Hispanohablante</strong></div>
+
+                            <a class="tp-caption btn btn-light font-weight-semibold" href="#" data-hash
+                                data-hash-offset="75" data-x="left" data-hoffset="['50','50','15','15']" data-y="center"
+                                data-voffset="['115','115','115','115']" data-start="1600" data-whitespace="nowrap"
+                                data-fontsize="['13','14','14','14']" data-paddingtop="['13','14','14','14']"
+                                data-paddingbottom="['13','13','13','16']" data-paddingleft="['50','50','50','50']"
+                                data-paddingright="['50','50','50','50']" data-transform_in="y:[-50%];opacity:0;s:500;"
+                                data-transform_out="y:[50%];opacity:0;s:500;">CREAR CUENTA</a>
+
+                        </li>
+
+                        <!-- Banner #2  -->
+                        <li data-transition="fade">
+                            <img src="img/slides/multi-purpose/slide-11-11.jpg" alt="" data-bgposition="center center"
+                                data-bgfit="cover" data-bgrepeat="no-repeat" data-kenburns="on" data-duration="2500"
+                                data-ease="Power2.easeInOut" data-scalestart="125" data-scaleend="100"
+                                data-rotatestart="0" data-rotateend="0" data-blurstart="20" data-blurend="0"
+                                data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg">
+
+                            <div class="tp-caption text-color-light font-primary font-weight-bold" data-x="left"
+                                data-hoffset="['52','52','17','17']" data-y="center"
+                                data-voffset="['-80','-80','-80','-70']" data-start="1000"
+                                data-fontsize="['55','55','55','55']" data-lineheight="['60','60','60','60']"
+                                data-transform_in="y:[100%];opacity:0;s:500;"
+                                data-transform_out="y:[100%];opacity:0;s:500;" data-mask_in="x:0px;y:0px;">SOY UN TEXTO
+                            </div>
+
+                            <div class="tp-caption text-color-light font-primary font-weight-bold" data-x="left"
+                                data-hoffset="['50','50','15','15']" data-y="center"
+                                data-voffset="['-30','-30','-30','-30']" data-start="1000"
+                                data-fontsize="['55','55','55','47']" data-lineheight="['60','60','60','52']"
+                                data-transform_in="y:[100%];opacity:0;s:500;"
+                                data-transform_out="y:[100%];opacity:0;s:500;" data-mask_in="x:0px;y:0px;">TEXTO - PVE
+                            </div>
+
+                            <div class="tp-caption text-color-light font-primary" data-x="left"
+                                data-hoffset="['50','50','15','15']" data-y="center"
+                                data-voffset="['30','30','30','15']" data-start="1000"
+                                data-fontsize="['18','18','18','18']" data-lineheight="['25','25','25','25']"
+                                data-transform_in="y:[100%];opacity:0;s:500;"
+                                data-transform_out="y:[100%];opacity:0;s:500;" data-mask_in="x:0px;y:0px;">DETALLE <span
+                                    class="bg-light text-color-dark font-weight-bold p-1">RESALTADO</span></div>
+
+                            <!--<a class="tp-caption btn btn-light font-weight-semibold text-1"
+									href="shop-3-columns-right-sidebar.html"
+									data-x="left" data-hoffset="['50','50','15','15']"
+									data-y="center" data-voffset="['115','115','115','115']"
+									data-start="1600"
+									data-whitespace="nowrap"
+									data-fontsize="['13','14','14','14']"
+									data-paddingtop="['13','14','14','14']"
+									data-paddingbottom="['13','13','13','16']"
+									data-paddingleft="['70','70','70','70']"
+									data-paddingright="['70','70','70','70']"	 
+									data-transform_in="y:[-50%];opacity:0;s:500;"
+									data-transform_out="y:[50%];opacity:0;s:500;">CREAR CUENTA</a> -->
+
+                        </li>
+
+                        <!-- Banner #3  -->
+                        <li data-transition="fade">
+                            <img src="img/slides/multi-purpose/slide-11-33.jpg" alt="" data-bgposition="center center"
+                                data-bgfit="cover" data-bgrepeat="no-repeat" data-kenburns="on" data-duration="2500"
+                                data-ease="Power2.easeInOut" data-scalestart="125" data-scaleend="100"
+                                data-rotatestart="0" data-rotateend="0" data-blurstart="20" data-blurend="0"
+                                data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg">
+
+                            <div class="tp-caption text-color-light font-primary font-weight-bold" data-x="left"
+                                data-hoffset="['52','52','17','17']" data-y="center"
+                                data-voffset="['-80','-80','-80','-70']" data-start="1000"
+                                data-fontsize="['23','23','23','23']" data-lineheight="['32','32','32','32']"
+                                data-transform_in="y:[100%];opacity:0;s:500;"
+                                data-transform_out="y:[100%];opacity:0;s:500;" data-mask_in="x:0px;y:0px;">DETALLE</div>
+
+                            <div class="tp-caption text-color-light font-primary font-weight-bold" data-x="left"
+                                data-hoffset="['50','50','15','15']" data-y="center"
+                                data-voffset="['-30','-30','-30','-30']" data-start="1000"
+                                data-fontsize="['65','65','65','47']" data-lineheight="['70','70','70','52']"
+                                data-transform_in="y:[100%];opacity:0;s:500;"
+                                data-transform_out="y:[100%];opacity:0;s:500;" data-mask_in="x:0px;y:0px;">TEXTO - PVP
+                            </div>
+
+                            <div class="tp-caption text-color-light font-primary font-weight-thin" data-x="left"
+                                data-hoffset="['50','50','15','15']" data-y="center"
+                                data-voffset="['35','35','35','25']" data-start="1000"
+                                data-fontsize="['28','28','28','28']" data-lineheight="['32','32','32','32']"
+                                data-transform_in="y:[100%];opacity:0;s:500;"
+                                data-transform_out="y:[100%];opacity:0;s:500;" data-mask_in="x:0px;y:0px;">BAJADA TEXTO
+                            </div>
+
+                            <!--
+									<a class="tp-caption btn btn-light font-weight-semibold"
+									href="#"
+									data-hash
+									data-hash-offset="75"
+									data-x="left" data-hoffset="['50','50','15','15']"
+									data-y="center" data-voffset="['115','115','115','115']"
+									data-start="1600"
+									data-whitespace="nowrap"
+									data-fontsize="['13','14','14','14']"
+									data-paddingtop="['13','14','14','14']"
+									data-paddingbottom="['13','13','13','16']"
+									data-paddingleft="['50','50','50','50']"
+									data-paddingright="['50','50','50','50']"	 
+									data-transform_in="y:[-50%];opacity:0;s:500;"
+									data-transform_out="y:[50%];opacity:0;s:500;">CREAR CUENTA</a>
+									-->
+                        </li>
+
+                        <!-- Banner #4  -->
+                        <li data-transition="fade">
+                            <img src="img/slides/multi-purpose/slide-11-55.jpg" alt="" data-bgposition="center center"
+                                data-bgfit="cover" data-bgrepeat="no-repeat" data-kenburns="on" data-duration="2500"
+                                data-ease="Power2.easeInOut" data-scalestart="125" data-scaleend="100"
+                                data-rotatestart="0" data-rotateend="0" data-blurstart="20" data-blurend="0"
+                                data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg">
+
+                            <div class="tp-caption text-color-light font-primary font-weight-bold" data-x="left"
+                                data-hoffset="['52','52','17','17']" data-y="center"
+                                data-voffset="['-80','-80','-80','-70']" data-start="1000"
+                                data-fontsize="['23','23','23','23']" data-lineheight="['32','32','32','32']"
+                                data-transform_in="y:[100%];opacity:0;s:500;"
+                                data-transform_out="y:[100%];opacity:0;s:500;" data-mask_in="x:0px;y:0px;">DETALLE</div>
+
+                            <div class="tp-caption text-color-light font-primary font-weight-bold" data-x="left"
+                                data-hoffset="['50','50','15','15']" data-y="center"
+                                data-voffset="['-30','-30','-30','-30']" data-start="1000"
+                                data-fontsize="['65','65','65','47']" data-lineheight="['70','70','70','52']"
+                                data-transform_in="y:[100%];opacity:0;s:500;"
+                                data-transform_out="y:[100%];opacity:0;s:500;" data-mask_in="x:0px;y:0px;">TEXTO -
+                                COMUNIDAD</div>
+
+                            <div class="tp-caption text-color-light font-primary font-weight-thin" data-x="left"
+                                data-hoffset="['50','50','15','15']" data-y="center"
+                                data-voffset="['35','35','35','25']" data-start="1000"
+                                data-fontsize="['28','28','28','28']" data-lineheight="['32','32','32','32']"
+                                data-transform_in="y:[100%];opacity:0;s:500;"
+                                data-transform_out="y:[100%];opacity:0;s:500;" data-mask_in="x:0px;y:0px;">BAJADA TEXTO
+                            </div>
+
+                            <!--
+									<a class="tp-caption btn btn-light font-weight-semibold"
+									href="#"
+									data-hash
+									data-hash-offset="75"
+									data-x="left" data-hoffset="['50','50','15','15']"
+									data-y="center" data-voffset="['115','115','115','115']"
+									data-start="1600"
+									data-whitespace="nowrap"
+									data-fontsize="['13','14','14','14']"
+									data-paddingtop="['13','14','14','14']"
+									data-paddingbottom="['13','13','13','16']"
+									data-paddingleft="['50','50','50','50']"
+									data-paddingright="['50','50','50','50']"	 
+									data-transform_in="y:[-50%];opacity:0;s:500;"
+									data-transform_out="y:[50%];opacity:0;s:500;">CREAR CUENTA</a>
+									-->
+                        </li>
+
+                        <!-- Banner #5  -->
+                        <li data-transition="fade">
+                            <img src="img/slides/multi-purpose/slide-11-22.jpg" alt="" data-bgposition="center center"
+                                data-bgfit="cover" data-bgrepeat="no-repeat" data-kenburns="on" data-duration="2500"
+                                data-ease="Power2.easeInOut" data-scalestart="125" data-scaleend="100"
+                                data-rotatestart="0" data-rotateend="0" data-blurstart="20" data-blurend="0"
+                                data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg">
+
+                            <div class="tp-caption text-color-light font-primary font-weight-bold" data-x="left"
+                                data-hoffset="['52','52','17','17']" data-y="center"
+                                data-voffset="['-80','-80','-80','-70']" data-start="1000"
+                                data-fontsize="['23','23','23','23']" data-lineheight="['32','32','32','32']"
+                                data-transform_in="y:[100%];opacity:0;s:500;"
+                                data-transform_out="y:[100%];opacity:0;s:500;" data-mask_in="x:0px;y:0px;">DETALLE</div>
+
+                            <div class="tp-caption text-color-light font-primary font-weight-bold" data-x="left"
+                                data-hoffset="['50','50','15','15']" data-y="center"
+                                data-voffset="['-30','-30','-30','-30']" data-start="1000"
+                                data-fontsize="['65','65','65','47']" data-lineheight="['70','70','70','52']"
+                                data-transform_in="y:[100%];opacity:0;s:500;"
+                                data-transform_out="y:[100%];opacity:0;s:500;" data-mask_in="x:0px;y:0px;">TEXTO -
+                                COMUNIDAD2</div>
+
+                            <div class="tp-caption text-color-light font-primary font-weight-thin" data-x="left"
+                                data-hoffset="['50','50','15','15']" data-y="center"
+                                data-voffset="['35','35','35','25']" data-start="1000"
+                                data-fontsize="['28','28','28','28']" data-lineheight="['32','32','32','32']"
+                                data-transform_in="y:[100%];opacity:0;s:500;"
+                                data-transform_out="y:[100%];opacity:0;s:500;" data-mask_in="x:0px;y:0px;">BAJADA <span
+                                    class="bg-light text-color-dark font-weight-bold p-1">RESALTADO</span></div>
+
+                            <!--
+									<a class="tp-caption btn btn-light font-weight-semibold"
+									href="#"
+									data-hash
+									data-hash-offset="75"
+									data-x="left" data-hoffset="['50','50','15','15']"
+									data-y="center" data-voffset="['115','115','115','115']"
+									data-start="1600"
+									data-whitespace="nowrap"
+									data-fontsize="['13','14','14','14']"
+									data-paddingtop="['13','14','14','14']"
+									data-paddingbottom="['13','13','13','16']"
+									data-paddingleft="['50','50','50','50']"
+									data-paddingright="['50','50','50','50']"	 
+									data-transform_in="y:[-50%];opacity:0;s:500;"
+									data-transform_out="y:[50%];opacity:0;s:500;">CREAR CUENTA</a>
+									-->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- MENÚ FLOTANTE -->
+            <aside class="nav-secondary nav-secondary-style-1 bg-primary" id="navSecondary" data-plugin-sticky
+                data-plugin-options="{'offset_top': 100}">
+                <div class="container">
+                    <div class="row py-2">
+                        <div class="col">
+                            <ul class="nav nav-light justify-content-center">
+                                <li class="nav-item"><a class="nav-link font-weight-semibold no-skin" data-hash
+                                        data-hash-offset="120" href="#">MI CUENTA</a></li>
+                                <li class="nav-item"><a class="nav-link font-weight-semibold no-skin" data-hash
+                                        data-hash-offset="120" href="#" target="_blank">FORO</a></li>
+                                <li class="nav-item"><a class="nav-link font-weight-semibold no-skin" data-hash
+                                        data-hash-offset="120" href="#" target="_blank">DISCORD</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+
+            <section class="section py-5">
+                <div class="container">
+                    <div class="row text-center mb-4">
+                        <!--<div class="col">
+								<div class="overflow-hidden">
+									<span class="d-block top-sub-title text-color-primary appear-animation" data-appear-animation="maskUp">TEXTO</span>
+								</div>
+								<div class="overflow-hidden mb-2">
+									<h2 class="font-weight-bold mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">TEXTO</h2>
+								</div>
+							</div>
+						</div> 
+						<div class="row">
+							<div class="col-md-6 mb-4 mb-md-0 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="400">
+								<div class="image-frame">
+									<div class="image-frame-wrapper">
+										<img src="img/shop/product-bg-4.jpg" class="img-fluid" alt="">
+										<div class="image-frame-info image-frame-info-show flex-column align-items-start px-4 mx-2">
+											<span class="text-color-dark font-primary font-weight-semibold text-2 line-height-1">TEXTO SECUNDARIO</span>
+											<h2 class="text-color-dark font-weight-semibold text-5 mb-3">TEXTO PRINCIPAL</h2>
+											<div class="mb-4">
+												<span class="old-price font-primary font-weight-semibold text-color-default text-line-trough text-5">TACHADO</span>
+												<span class="price font-primary font-weight-semibold text-color-dark text-5">NUEVO</span>
+											</div>
+											<a href="#" class="btn btn-dark font-weight-bold btn-h-3 btn-v-3">BOTÓN</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-6 col-sm-6 col-md-3 pl-md-2 pl-lg-3 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="600">
+								<div class="image-frame">
+									<div class="image-frame-wrapper align-items-start">
+										<img src="img/shop/product-bg-5.jpg" class="img-fluid" alt="">
+										<div class="image-frame-info image-frame-info-show flex-column align-items-start px-4 mx-2 mt-5">
+											<h2 class="text-color-dark font-weight-semibold text-2 mb-2">TEXTO CHICO</h2>
+											<div class="mb-4">
+												<span class="old-price font-primary font-weight-semibold text-color-default text-line-trough text-4">TACHADO</span>
+												<span class="price font-primary font-weight-semibold text-color-dark text-4">NUEVO</span>
+											</div>
+											<a href="#" class="btn btn-dark font-weight-bold btn-h-2 btn-v-3">BOTÓN</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-6 col-sm-6 col-md-3 pl-md-2 pl-lg-3 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="800">
+								<div class="image-frame">
+									<div class="image-frame-wrapper align-items-start">
+										<img src="img/shop/product-bg-6.jpg" class="img-fluid" alt="">
+										<div class="image-frame-info image-frame-info-show flex-column align-items-center mt-5">
+											<h2 class="text-color-dark font-weight-semibold text-2 mb-2">TEXTO CHICO</h2>
+											<div class="mb-4">
+												<span class="old-price font-primary font-weight-semibold text-color-default text-line-trough text-4">TACHADO</span>
+												<span class="price font-primary font-weight-semibold text-color-dark text-4">NUEVO</span>
+											</div>
+											<a href="#" class="btn btn-dark font-weight-bold btn-h-2 btn-v-3">BOTÓN</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>-->
+            </section>
+
+            <!-- Barra
+				<div class="container">
+					<hr>
+				</div>	  
+				
+				<div class="col">
+								<div class="d-flex align-items-center justify-content-center">
+									<hr class="w-100">
+									<h2 class="text-color-primary font-secondary text-1 absolute-xy-center bg-light px-4 mb-0">JUEGOS</h2>
+								</div>
+							</div> -->
+
+            <section class="section py-0">
+                <div class="container-fluid p-md-0">
+                    <div class="row mt-4 pt-1">
+                        <div class="col-md-4 mb-3 mb-md-0">
+                            <a href="#" target="_blank">
+                                <div
+                                    class="image-frame image-frame-border image-frame-style-1 image-frame-effect-2 image-frame-effect-1">
+                                    <div
+                                        class="image-frame-wrapper image-frame-wrapper-justify-left image-frame-wrapper-align-end">
+                                        <img src="img/generic/generic-6.jpg" class="img-fluid" alt="">
+                                        <div class="image-frame-info image-frame-info-show flex-column p-4 text-left">
+                                            <div class="overflow-hidden mb-2">
+                                                <h3 class="text-color-light text-3 mb-0 appear-animation"
+                                                    data-appear-animation="maskUp">Guía para principiantes.</h3>
+                                            </div>
+                                            <div class="overflow-hidden mb-2">
+                                                <h2 class="text-color-light font-weight-semibold text-4 mb-0 appear-animation"
+                                                    data-appear-animation="maskUp" data-appear-animation-delay="200">
+                                                    ¿CÓMO JUGAR?</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 mb-3 mb-md-0">
+                            <a href="#" target="_blank">
+                                <div
+                                    class="image-frame image-frame-border image-frame-style-1 image-frame-effect-2 image-frame-effect-1">
+                                    <div
+                                        class="image-frame-wrapper image-frame-wrapper-justify-left image-frame-wrapper-align-end">
+                                        <img src="img/generic/generic-6.jpg" class="img-fluid" alt="">
+                                        <div class="image-frame-info image-frame-info-show flex-column p-4 text-left">
+                                            <div class="overflow-hidden mb-2">
+                                                <h3 class="text-color-light text-3 mb-0 appear-animation"
+                                                    data-appear-animation="maskUp" data-appear-animation-delay="400">
+                                                    ¿Viejo conocido?.</h3>
+                                            </div>
+                                            <div class="overflow-hidden mb-2">
+                                                <h2 class="text-color-light font-weight-semibold text-4 mb-0 appear-animation"
+                                                    data-appear-animation="maskUp" data-appear-animation-delay="600">
+                                                    MIGRACIONES</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#" target="_blank">
+                                <div
+                                    class="image-frame image-frame-border image-frame-style-1 image-frame-effect-2 image-frame-effect-1">
+                                    <div
+                                        class="image-frame-wrapper image-frame-wrapper-justify-left image-frame-wrapper-align-end">
+                                        <img src="img/generic/generic-6.jpg" class="img-fluid" alt="">
+                                        <div class="image-frame-info image-frame-info-show flex-column p-4 text-left">
+                                            <div class="overflow-hidden mb-2">
+                                                <h3 class="text-color-light text-3 mb-0 appear-animation"
+                                                    data-appear-animation="maskUp" data-appear-animation-delay="800">
+                                                    ¿Quieres comprar? ¿Vender?.</h3>
+                                            </div>
+                                            <div class="overflow-hidden mb-2">
+                                                <h2 class="text-color-light font-weight-semibold text-4 mb-0 appear-animation"
+                                                    data-appear-animation="maskUp" data-appear-animation-delay="1000">
+                                                    MERCADO NEGRO</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4 pt-1">
+                        <div class="col-md-4 mb-3 mb-md-0">
+                            <a href="#" target="_blank">
+                                <div
+                                    class="image-frame image-frame-border image-frame-style-1 image-frame-effect-2 image-frame-effect-1">
+                                    <div
+                                        class="image-frame-wrapper image-frame-wrapper-justify-left image-frame-wrapper-align-end">
+                                        <img src="img/generic/generic-6.jpg" class="img-fluid" alt="">
+                                        <div class="image-frame-info image-frame-info-show flex-column p-4 text-left">
+                                            <div class="overflow-hidden mb-2">
+                                                <h3 class="text-color-light text-3 mb-0 appear-animation"
+                                                    data-appear-animation="maskUp">Descripción</h3>
+                                            </div>
+                                            <div class="overflow-hidden mb-2">
+                                                <h2 class="text-color-light font-weight-semibold text-4 mb-0 appear-animation"
+                                                    data-appear-animation="maskUp" data-appear-animation-delay="200">
+                                                    TEXTO</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 mb-3 mb-md-0">
+                            <a href="#" target="_blank">
+                                <div
+                                    class="image-frame image-frame-border image-frame-style-1 image-frame-effect-2 image-frame-effect-1">
+                                    <div
+                                        class="image-frame-wrapper image-frame-wrapper-justify-left image-frame-wrapper-align-end">
+                                        <img src="img/generic/generic-6.jpg" class="img-fluid" alt="">
+                                        <div class="image-frame-info image-frame-info-show flex-column p-4 text-left">
+                                            <div class="overflow-hidden mb-2">
+                                                <h3 class="text-color-light text-3 mb-0 appear-animation"
+                                                    data-appear-animation="maskUp" data-appear-animation-delay="400">
+                                                    Descripción</h3>
+                                            </div>
+                                            <div class="overflow-hidden mb-2">
+                                                <h2 class="text-color-light font-weight-semibold text-4 mb-0 appear-animation"
+                                                    data-appear-animation="maskUp" data-appear-animation-delay="600">
+                                                    TEXTO</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#">
+                                <div
+                                    class="image-frame image-frame-border image-frame-style-1 image-frame-effect-2 image-frame-effect-1">
+                                    <div
+                                        class="image-frame-wrapper image-frame-wrapper-justify-left image-frame-wrapper-align-end">
+                                        <img src="img/generic/generic-6.jpg" class="img-fluid" alt="">
+                                        <div class="image-frame-info image-frame-info-show flex-column p-4 text-left">
+                                            <div class="overflow-hidden mb-2">
+                                                <h3 class="text-color-light text-3 mb-0 appear-animation"
+                                                    data-appear-animation="maskUp" data-appear-animation-delay="800">
+                                                    Descripción</h3>
+                                            </div>
+                                            <div class="overflow-hidden mb-2">
+                                                <h2 class="text-color-light font-weight-semibold text-4 mb-0 appear-animation"
+                                                    data-appear-animation="maskUp" data-appear-animation-delay="1000">
+                                                    TEXTO</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section appear-animation" data-appear-animation="fadeIn">
+                <div class="container">
+                    <div class="row text-center mb-4">
+                        <div class="col">
+                            <div class="overflow-hidden">
+                                <span class="d-block top-sub-title text-color-dark appear-animation"
+                                    data-appear-animation="maskUp" data-appear-animation-delay="200">SE PARTE DE ESTA
+                                    GRAN FAMILIA</span>
+                            </div>
+                            <div class="overflow-hidden mb-2">
+                                <h2 class="text-color-dark font-weight-bold mb-0 appear-animation"
+                                    data-appear-animation="maskUp" data-appear-animation-delay="400">Staff Andes&nbsp;
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row appear-animation" data-appear-animation="fadeInUpShorter"
+                        data-appear-animation-delay="600">
+                        <div class="col">
+                            <div class="owl-carousel owl-theme carousel-items-border-divider nav-style-3 nav-color-dark"
+                                data-plugin-options="{'loop': true, 'autoplay': false, 'items': 4, 'nav': true, 'dots': false, 'autoplayHoverPause': true, 'autoHeight': true}">
+                                <div class="px-3">
+                                    <a href="#">
+                                        <div class="icon-box-animation-1 icon-box-animation-1-dark">
+                                            <div class="icon-box icon-box-style-5 p-4">
+                                                <div class="icon-box-icon mb-3 sample-icon sample-icon-lnr">
+                                                    <img width="70" src="img/icons/home.svg" alt="" data-icon
+                                                        data-plugin-options="{'color': '#000'}" />
+                                                </div>
+                                                <div class="icon-box-info">
+                                                    <div class="icon-box-info-title">
+                                                        <h4 class="text-color-dark mb-0">Community</h4>
+                                                    </div>
+                                                    <p class="text-color-dark font-primary">2 Puestos</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="px-3">
+                                    <a href="#">
+                                        <div class="icon-box-animation-1 icon-box-animation-1-dark">
+                                            <div class="icon-box icon-box-style-5 p-4">
+                                                <div class="icon-box-icon mb-3">
+                                                    <img width="70" src="img/icons/icon-4.svg" alt="" data-icon
+                                                        data-plugin-options="{'color': '#000'}" />
+                                                </div>
+                                                <div class="icon-box-info">
+                                                    <div class="icon-box-info-title">
+                                                        <h4 class="text-color-dark mb-0">Programmer</h4>
+                                                    </div>
+                                                    <p class="text-color-dark font-primary">Sin vacantes</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="px-3">
+                                    <a href="#">
+                                        <div class="icon-box-animation-1 icon-box-animation-1-dark">
+                                            <div class="icon-box icon-box-style-5 p-4">
+                                                <div class="icon-box-icon mb-3">
+                                                    <img width="70" src="img/icons/technology.svg" alt="" data-icon
+                                                        data-plugin-options="{'color': '#000'}" />
+                                                </div>
+                                                <div class="icon-box-info">
+                                                    <div class="icon-box-info-title">
+                                                        <h4 class="text-color-dark mb-0">GM & Tester</h4>
+                                                    </div>
+                                                    <p class="text-color-dark font-primary">4 Puestos</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="px-3">
+                                    <a href="#">
+                                        <div class="icon-box-animation-1 icon-box-animation-1-dark">
+                                            <div class="icon-box icon-box-style-5 p-4">
+                                                <div class="icon-box-icon mb-3">
+                                                    <img width="70" src="img/icons/trophy.svg" alt="" data-icon
+                                                        data-plugin-options="{'color': '#000'}" />
+                                                </div>
+                                                <div class="icon-box-info">
+                                                    <div class="icon-box-info-title">
+                                                        <h4 class="text-color-dark mb-0">E-Sport & Eventos</h4>
+                                                    </div>
+                                                    <p class="text-color-dark font-primary">2 Puestos</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="px-3">
+                                    <a href="#">
+                                        <div class="icon-box-animation-1 icon-box-animation-1-dark">
+                                            <div class="icon-box icon-box-style-5 p-4">
+                                                <div class="icon-box-icon mb-3">
+                                                    <img width="70" src="img/icons/icon-3.svg" alt="" data-icon
+                                                        data-plugin-options="{'color': '#000'}" />
+                                                </div>
+                                                <div class="icon-box-info">
+                                                    <div class="icon-box-info-title">
+                                                        <h4 class="text-color-dark mb-0">Social Media</h4>
+                                                    </div>
+                                                    <p class="text-color-dark font-primary">2 Puestos</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col">
+                        <h4>Estado del Servidor:</h4>
+                        <hr class="mb-5">
+                    </div>
+                </div>
+
+            </div>
+
+            <section class="section section-height-2 bg-dark mb-5">
+                <div class="container">
+                    <div class="counters counters-light">
+                        <div class="row">
+                            <div class="col-12 col-sm-6 col-lg-3">
+                                <div class="counter">
+                                    <i class="fas fa-user"></i>
+                                    <strong data-to="5000" data-append="+">0</strong>
+                                    <label class="font-weight-light">Jugadores en linea</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-3">
+                                <div class="counter">
+                                    <i class="fas fa-chess-king"></i>
+                                    <strong data-to="359">0</strong>
+                                    <label class="font-weight-light">Alianzas</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-3">
+                                <div class="counter">
+                                    <i class="fas fa-fire"></i>
+                                    <strong class="text-tertiary" data-to="352">0</strong>
+                                    <label class="font-weight-light">Hordas</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-3">
+                                <div class="counter">
+                                    <i class="fas fa-clock"></i>
+                                    <strong data-to="649" data-append="hs">0</strong>
+                                    <label class="font-weight-light">Tiempo en linea</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="noticias" class="section">
+                <div class="container">
+                    <div class="row text-center mb-5">
+                        <div class="col">
+                            <div class="overflow-hidden">
+                                <span class="d-block top-sub-title text-color-primary appear-animation"
+                                    data-appear-animation="maskUp">ÚLTIMAS NOVEDADES</span>
+                            </div>
+                            <div class="overflow-hidden mb-2">
+                                <h2 class="font-weight-bold mb-0 appear-animation" data-appear-animation="maskUp"
+                                    data-appear-animation-delay="200">NOTICIAS</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-md-center">
+                        <div class="col">
+                            <div class="timeline" id="timeline">
+                                <div class="timeline-body">
+                                    <article class="timeline-box blog-post left appear-animation"
+                                        data-appear-animation="fadeIn">
+                                        <div class="timeline-box-arrow"></div>
+                                        <header class="blog-post-header mb-4">
+                                            <div class="owl-carousel owl-theme dots-style-2 nav-style-2"
+                                                data-plugin-options="{'items': 1, 'dots': true, 'nav': false, 'animateIn': 'fadeIn', 'animateOut': 'fadeOut'}">
+                                                <div>
+                                                    <a href="#">
+                                                        <img src="img/blog/posts/post-2-2-masonry.jpg" class="img-fluid"
+                                                            alt="" />
+                                                    </a>
+                                                </div>
+                                                <div>
+                                                    <a href="#">
+                                                        <img src="img/blog/posts/post-2-3-masonry.jpg" class="img-fluid"
+                                                            alt="" />
+                                                    </a>
+                                                </div>
+                                                <div>
+                                                    <a href="#">
+                                                        <img src="img/blog/posts/post-2-masonry.jpg" class="img-fluid"
+                                                            alt="" />
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <i
+                                                class="post-format-icon lnr lnr-picture bg-primary text-color-light text-7 p-3"></i>
+                                        </header>
+                                        <h2 class="font-weight-semibold text-5">
+                                            <a href="#" class="link-color-dark">
+                                                Posteo estilo "Slide" </a>
+                                        </h2>
+                                        <div class="d-flex mb-3">
+                                            <span class="post-date text-color-primary pr-3">FEBRERO 12, 2022</span>
+                                            <!--<span class="post-likes d-flex align-items-center border border-top-0 border-bottom-0 px-3"><i class="lnr lnr-heart mr-1" aria-label="7 users like this post"></i> 7</span> 
+												<a href="blog-single-post.html#comments">
+													<span class="post-comments d-flex align-items-center px-3"><i class="lnr lnr-bubble mr-1" aria-label="5 users comment this post"></i> 5</span>
+												</a>-->
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam finibus
+                                            vestibulum lacus non sodales. Aenean pretium augue tellus, dapibus molestie
+                                            sapien vestibulum venenatis. Curabitur eulr...</p>
+                                        <a href="#" class="text-color-primary font-weight-bold learn-more">LEER
+                                            MÁS&nbsp; <i class="fas fa-angle-right" aria-label="Read more"></i></a>
+                                    </article>
+                                    <article class="timeline-box blog-post right appear-animation"
+                                        data-appear-animation="fadeIn" data-appear-animation-delay="300">
+                                        <div class="timeline-box-arrow"></div>
+                                        <header class="blog-post-header mb-4">
+                                            <div class="lightbox"
+                                                data-plugin-options="{'delegate': 'a', 'type': 'image', 'gallery': {'enabled': true}, 'mainClass': 'mfp-with-zoom', 'zoom': {'enabled': true, 'duration': 300}}">
+                                                <div class="row mx-0">
+                                                    <div class="col-6 col-md-4 p-0">
+                                                        <a href="img/blog/posts/post-3-square.jpg">
+                                                            <span
+                                                                class="image-frame image-frame-style-1 image-frame-effect-1">
+                                                                <span class="image-frame-wrapper">
+                                                                    <img src="img/blog/posts/post-3-square.jpg"
+                                                                        class="img-fluid" alt="">
+                                                                    <span class="image-frame-inner-border"></span>
+                                                                    <span class="image-frame-action">
+                                                                        <span class="image-frame-action-icon">
+                                                                            <i
+                                                                                class="lnr lnr-magnifier text-color-light"></i>
+                                                                        </span>
+                                                                    </span>
+                                                                </span>
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-6 col-md-4 p-0">
+                                                        <a href="img/blog/posts/post-4-square.jpg">
+                                                            <span
+                                                                class="image-frame image-frame-style-1 image-frame-effect-1">
+                                                                <span class="image-frame-wrapper">
+                                                                    <img src="img/blog/posts/post-4-square.jpg"
+                                                                        class="img-fluid" alt="">
+                                                                    <span class="image-frame-inner-border"></span>
+                                                                    <span class="image-frame-action">
+                                                                        <span class="image-frame-action-icon">
+                                                                            <i
+                                                                                class="lnr lnr-magnifier text-color-light"></i>
+                                                                        </span>
+                                                                    </span>
+                                                                </span>
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-6 col-md-4 p-0">
+                                                        <a href="img/blog/posts/post-9-square.jpg">
+                                                            <span
+                                                                class="image-frame image-frame-style-1 image-frame-effect-1">
+                                                                <span class="image-frame-wrapper">
+                                                                    <img src="img/blog/posts/post-9-square.jpg"
+                                                                        class="img-fluid" alt="">
+                                                                    <span class="image-frame-inner-border"></span>
+                                                                    <span class="image-frame-action">
+                                                                        <span class="image-frame-action-icon">
+                                                                            <i
+                                                                                class="lnr lnr-magnifier text-color-light"></i>
+                                                                        </span>
+                                                                    </span>
+                                                                </span>
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-6 col-md-4 p-0">
+                                                        <a href="img/blog/posts/post-6-square.jpg">
+                                                            <span
+                                                                class="image-frame image-frame-style-1 image-frame-effect-1">
+                                                                <span class="image-frame-wrapper">
+                                                                    <img src="img/blog/posts/post-6-square.jpg"
+                                                                        class="img-fluid" alt="">
+                                                                    <span class="image-frame-inner-border"></span>
+                                                                    <span class="image-frame-action">
+                                                                        <span class="image-frame-action-icon">
+                                                                            <i
+                                                                                class="lnr lnr-magnifier text-color-light"></i>
+                                                                        </span>
+                                                                    </span>
+                                                                </span>
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-6 col-md-4 p-0">
+                                                        <a href="img/blog/posts/post-7-square.jpg">
+                                                            <span
+                                                                class="image-frame image-frame-style-1 image-frame-effect-1">
+                                                                <span class="image-frame-wrapper">
+                                                                    <img src="img/blog/posts/post-7-square.jpg"
+                                                                        class="img-fluid" alt="">
+                                                                    <span class="image-frame-inner-border"></span>
+                                                                    <span class="image-frame-action">
+                                                                        <span class="image-frame-action-icon">
+                                                                            <i
+                                                                                class="lnr lnr-magnifier text-color-light"></i>
+                                                                        </span>
+                                                                    </span>
+                                                                </span>
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-6 col-md-4 p-0">
+                                                        <a href="img/blog/posts/post-8-square.jpg">
+                                                            <span
+                                                                class="image-frame image-frame-style-1 image-frame-effect-1">
+                                                                <span class="image-frame-wrapper">
+                                                                    <img src="img/blog/posts/post-8-square.jpg"
+                                                                        class="img-fluid" alt="">
+                                                                    <span class="image-frame-inner-border"></span>
+                                                                    <span class="image-frame-action">
+                                                                        <span class="image-frame-action-icon">
+                                                                            <i
+                                                                                class="lnr lnr-magnifier text-color-light"></i>
+                                                                        </span>
+                                                                    </span>
+                                                                </span>
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </header>
+                                        <h2 class="font-weight-semibold text-5">
+                                            <a href="#" class="link-color-dark">
+                                                Posteo estilo "Galería"&nbsp; </a>
+                                        </h2>
+                                        <div class="d-flex mb-3">
+                                            <span class="post-date text-color-primary pr-3">FEBRERO 12, 2022</span>
+                                            <!--<span class="post-likes d-flex align-items-center border border-top-0 border-bottom-0 px-3"><i class="lnr lnr-heart mr-1" aria-label="6 users like this post"></i> 6</span>
+												<a href="blog-single-post.html#comments">
+													<span class="post-comments d-flex align-items-center px-3"><i class="lnr lnr-bubble mr-1" aria-label="2 users comment this post"></i> 2</span>
+												</a> -->
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam finibus
+                                            vestibulum lacus non sodales. Aenean pretium augue tellus, dapibus molestie
+                                            sapien vestibulum venenatis. Curabitur eulr...</p>
+                                        <a href="#" class="text-color-primary font-weight-bold learn-more">LEER MÁS <i
+                                                class="fas fa-angle-right" aria-label="Read more"></i></a>
+                                    </article>
+                                    <article class="timeline-box blog-post left appear-animation"
+                                        data-appear-animation="fadeIn">
+                                        <div class="timeline-box-arrow"></div>
+                                        <header class="blog-post-header mb-4">
+                                            <div class="embed-responsive embed-responsive-16by9">
+                                                <iframe class="embed-responsive-item"
+                                                    src="https://player.vimeo.com/video/45830194?color=ffffff&title=0&byline=0&portrait=0&badge=0"
+                                                    width="640" height="360" allowfullscreen></iframe>
+                                            </div>
+                                        </header>
+                                        <h2 class="font-weight-semibold text-5">
+                                            <a href="#" class="link-color-dark">
+                                                Posteo estilo "Video externo" </a>
+                                        </h2>
+                                        <div class="d-flex mb-3">
+                                            <span class="post-date text-color-primary pr-3">FEBRERO 12, 2022</span>
+                                            <!-- <span class="post-likes d-flex align-items-center border border-top-0 border-bottom-0 px-3"><i class="lnr lnr-heart mr-1" aria-label="5 users like this post"></i> 5</span>
+												<a href="blog-single-post.html#comments">
+													<span class="post-comments d-flex align-items-center px-3"><i class="lnr lnr-bubble mr-1" aria-label="3 users comment this post"></i> 3</span>
+												</a> -->
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam finibus
+                                            vestibulum lacus non sodales. Aenean pretium augue tellus, dapibus molestie
+                                            sapien vestibulum venenatis. Curabitur eulr...</p>
+                                        <a href="#" class="text-color-primary font-weight-bold learn-more">LEER MÁS <i
+                                                class="fas fa-angle-right" aria-label="Read more"></i></a>
+                                    </article>
+                                    <article class="timeline-box blog-post right appear-animation"
+                                        data-appear-animation="fadeIn" data-appear-animation-delay="300">
+                                        <div class="timeline-box-arrow"></div>
+                                        <header class="blog-post-header mb-4">
+                                            <div class="embed-responsive embed-responsive-16by9">
+                                                <video class="embed-responsive-item" autoplay="" muted="" loop=""
+                                                    controls="">
+                                                    <source src="video/office.mp4" type="video/mp4">
+                                                </video>
+                                            </div>
+                                        </header>
+                                        <h2 class="font-weight-semibold text-5">
+                                            <a href="#" class="link-color-dark">
+                                                Posteo estilo "Video en Servidor"
+                                            </a>
+                                        </h2>
+                                        <div class="d-flex mb-3">
+                                            <span class="post-date text-color-primary pr-3">FEBRERO 12, 2022</span>
+                                            <!-- <span class="post-likes d-flex align-items-center border border-top-0 border-bottom-0 px-3"><i class="lnr lnr-heart mr-1" aria-label="4 users like this post"></i> 4</span>
+												<a href="blog-single-post.html#comments">
+													<span class="post-comments d-flex align-items-center px-3"><i class="lnr lnr-bubble mr-1" aria-label="9 users comment this post"></i> 9</span>
+												</a> -->
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam finibus
+                                            vestibulum lacus non sodales. Aenean pretium augue tellus, dapibus molestie
+                                            sapien vestibulum venenatis. Curabitur eulr...</p>
+                                        <a href="#" class="text-color-primary font-weight-bold learn-more">LEER MÁS <i
+                                                class="fas fa-angle-right" aria-label="Read more"></i></a>
+                                    </article>
+                                    <article class="timeline-box blog-post left appear-animation"
+                                        data-appear-animation="fadeIn">
+                                        <div class="timeline-box-arrow"></div>
+                                        <header class="blog-post-header bg-light-5 p-4 mb-4">
+                                            <blockquote class="blockquote blockquote-style-1 blockquote-primary">
+                                                <p class="mb-4 font-tertiary font-italic">Lorem ipsum dolor sit amet,
+                                                    consectetur adipiscing elit. Nulla gravida ipsum a est iaculis, sit
+                                                    amet ullamcorper odio egestas.</p>
+                                            </blockquote>
+                                        </header>
+                                        <h2 class="font-weight-semibold text-5">
+                                            <a href="#" class="link-color-dark">
+                                                Posteo estilo "Cita"
+                                            </a>
+                                        </h2>
+                                        <div class="d-flex mb-3">
+                                            <span class="post-date text-color-primary pr-3">FEBRERO 12, 2022</span>
+                                            <!-- <span class="post-likes d-flex align-items-center border border-top-0 border-bottom-0 px-3"><i class="lnr lnr-heart mr-1" aria-label="3 users like this post"></i> 3</span>
+												<a href="blog-single-post.html#comments">
+													<span class="post-comments d-flex align-items-center px-3"><i class="lnr lnr-bubble mr-1" aria-label="7 users comment this post"></i> 7</span>
+												</a> -->
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam finibus
+                                            vestibulum lacus non sodales. Aenean pretium augue tellus, dapibus molestie
+                                            sapien vestibulum venenatis. Curabitur eulr...</p>
+                                        <a href="#" class="text-color-primary font-weight-bold learn-more">LEER MÁS <i
+                                                class="fas fa-angle-right" aria-label="Read more"></i></a>
+                                    </article>
+                                    <article class="timeline-box blog-post right appear-animation"
+                                        data-appear-animation="fadeIn" data-appear-animation-delay="300">
+                                        <div class="timeline-box-arrow"></div>
+                                        <header class="blog-post-header mb-4">
+                                            <a href="https://foro.athenaswow-project.com/"
+                                                class="d-block btn btn-primary btn-outline border-0 rounded-0 font-weight-bold text-center text-4 py-5"
+                                                target="_blank">NUEVO FORO - ANDES WOW</a>
+                                        </header>
+                                        <h2 class="font-weight-semibold text-5">
+                                            <a href="#" class="link-color-dark">
+                                                Posteo estilo "Link"
+                                            </a>
+                                        </h2>
+                                        <div class="d-flex mb-3">
+                                            <span class="post-date text-color-primary pr-3">FEBRERO 12, 2022</span>
+                                            <!--<span class="post-likes d-flex align-items-center border border-top-0 border-bottom-0 px-3"><i class="lnr lnr-heart mr-1" aria-label="9 users like this post"></i> 9</span>
+												<a href="blog-single-post.html#comments">
+													<span class="post-comments d-flex align-items-center px-3"><i class="lnr lnr-bubble mr-1" aria-label="5 users comment this post"></i> 5</span>
+												</a> -->
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam finibus
+                                            vestibulum lacus non sodales. Aenean pretium augue tellus, dapibus molestie
+                                            sapien vestibulum venenatis. Curabitur eulr...</p>
+                                        <a href="#" class="text-color-primary font-weight-bold learn-more">LEER MÁS <i
+                                                class="fas fa-angle-right" aria-label="Read more"></i></a>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+        <footer id="footer" class="bg-light mt-0">
+            <div class="container">
+
+
+
+            </div>
+            <div class="footer-copyright bg-light mt-0 mb-5 pb-5">
+                <div class="container">
+                    <div class="row align-items-center justify-content-md-center">
+                        <div class="col-12 col-lg-4 text-center text-lg-right order-3 order-lg-1">
+                            <p class="mb-0">Andes - Servidor Privado de World of Warcraft WotLK
+                                <!-- <a href="#" target="_blank"><strong>Andes </strong></a> -->
+                            </p>
+                            <p class="mb-0">Copyrights © 2022 - 20??</p>
+                            <p class="mb-0">Todos los derechos reservados. Diseño por <strong>Andes</strong></p>
+                        </div>
+                        <div class="col-12 col-lg-2 text-center order-1 order-lg-2">
+                            <a href="index.html"><img src="img/logo-111.png" width="100%" height="100%" alt="ATHENAS"
+                                    class="img-fluid" /></a>
+                        </div>
+                        <div class="col-12 col-lg-4 text-center text-lg-left order-2 order-lg-3 mb-2 mb-lg-0">
+                            <a href="#" class="link-underline-dark mr-3">Políticas de Privacidad</a>
+                            <a href="#" class="link-underline-dark">Términos de Uso</a>
+                        </div>
+                    </div>
+                </div>
+                <hr class="my-5">
+                <div class="row text-center">
+                    <div class="col">
+                        <div class="overflow-hidden mb-3">
+                            <p class="lead mb-0 appear-animation" data-appear-animation="maskUp"
+                                data-appear-animation-delay="300"><strong>Andes</strong> (desde ahora nosotros) no somos
+                                propietarios del juego en sí, éste pertenece única y exclusivamente a Blizzard
+                                Entertainment, Inc. Todas las imágenes, contenido e ideas aquí previstas son de sus
+                                autores originales. Nosotros no apoyamos la piratería y solo ofrecemos un servicio
+                                privado de entretenimiento sin ánimo de lucro. Si quieres disfrutar de la experiencia
+                                completa, por favor hazte con una suscripción en la página de Battle.net oficial.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Vendor -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery.appear/jquery.appear.min.js"></script>
+    <script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="vendor/jquery-cookie/jquery-cookie.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/common/common.min.js"></script>
+    <script src="vendor/jquery.validation/jquery.validation.min.js"></script>
+    <script src="vendor/jquery.easy-pie-chart/jquery.easy-pie-chart.min.js"></script>
+    <script src="vendor/jquery.gmap/jquery.gmap.min.js"></script>
+    <script src="vendor/jquery.lazyload/jquery.lazyload.min.js"></script>
+    <script src="vendor/isotope/jquery.isotope.min.js"></script>
+    <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="vendor/vide/vide.min.js"></script>
+    <script src="vendor/vivus/vivus.min.js"></script>
+    <script src="vendor/nanoscroller/jquery.nanoscroller.min.js"></script>
+
+    <!-- Theme Base, Components and Settings -->
+    <script src="js/theme.js"></script>
+
+    <!-- Current Page Vendor and Views -->
+    <script src="vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+    <!-- Theme Custom -->
+    <script src="js/custom.js"></script>
+
+    <!-- Theme Initialization Files -->
+    <script src="js/theme.init.js"></script>
+
+
+
+
+    <!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		
+			ga('create', 'UA-12345678-1', 'auto');
+			ga('send', 'pageview');
+		</script>
+		 -->
+
 </body>
 
 </html>
